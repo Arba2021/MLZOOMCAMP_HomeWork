@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+print(pd.__version__)
 df = pd.read_csv("car_fuel_efficiency.csv")
 
 len(df)
